@@ -1,0 +1,27 @@
+//Program in C to display the following pattern
+
+
+//    *
+//   * *
+//  * * *
+// * * * *
+
+
+#include <stdio.h>
+int main() {
+   
+   int i, j, s;
+   
+   for (i = 1; i <= 4; i++) {
+    for (s = 3; s >= i; s--) {
+        printf(" ");
+    }
+    for (j = 1; j <= i; j++) {
+        printf(" ");
+        printf("*");
+    }
+    printf("\n");
+   }
+
+   return 0;
+}
