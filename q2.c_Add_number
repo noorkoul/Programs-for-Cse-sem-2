@@ -1,0 +1,15 @@
+//Add two numbers
+
+#include<stdio.h>
+
+    int main(){
+        int a , b, ans;
+        printf("Please Enter the two numbers to be added");
+        scanf("%d%d", &a,&b);
+        ans= a+b;
+        printf("%d",ans);
+
+        return 0;
+    
+
+    }
