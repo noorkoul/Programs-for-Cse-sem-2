@@ -1,15 +1,18 @@
-//Add two numbers
+//Program in C to add 2 integers entered by user
 
 #include<stdio.h>
 
-    int main(){
-        int a , b, ans;
-        printf("Please Enter the two numbers to be added");
-        scanf("%d%d", &a,&b);
-        ans= a+b;
-        printf("%d",ans);
+int main() {
+    int a, b, sum
+    printf("Enter first integer: ");
+    scanf("%d", &a);
+    printf("Enter second integer: ");
+    scanf("%d", &b);
 
-        return 0;
-    
+    sum = a + b;
 
-    }
+    printf("The sum of %d and %d is %d\n", a, b, sum);
+
+
+    return 0;
+}
